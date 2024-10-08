@@ -12,14 +12,20 @@ Vamos a implementar un contador interactivo en JavaScript que permitirá aumenta
 2. Uno que reiniciará el contador a cero.
 3. Uno que aumentará el valor del contador.
 
-**¿Dónde lo vamos a hacer?**
+Deberás hacer el fork del siguiente link:
 
+**¿Dónde lo vamos a hacer?**
+El proyecto será forkeado desde GitHub.
 Trabajaremos en dos archivos de JavaScript ubicados en la carpeta src/js:
 
 1. Archivo **counter.js**, para la lógica que manejará el estado del contador (aumentar, disminuir y reiniciar).
 2. Archivo **events.js** para disparar los eventos cuando se haga clic en los botones.
 
+El HTML y CSS ya están creados.
+
 **¿Cómo lo hacemos?**
+
+El contador comenzará con un número 0. Tendrás tres botones: uno para disminuir el número, otro para reiniciarlo a 0, y otro para aumentarlo. La lógica del contador debe escribirse en el archivo **counter.js**, y este archivo debe controlar la interacción de los botones mediante eventos Los eventos los escribimos en el archivo **events.js**.
 
 En la **Parte I**, se implementarán las funciones que permiten aumentar, disminuir y reiniciar el valor del contador. Cada botón tendrá un evento asociado que activará la función correspondiente cuando sea clicado.
 
@@ -49,9 +55,19 @@ El objetivo principal es que logres **interactuar con el DOM** y accionar **Even
 
 ---
 
+## **Criterios de Evaluación**
+
+1. **Implementación de la lógica**: El estudiante debe demostrar una comprensión clara sobre cómo gestionar eventos y actualizar la UI.
+2. **Funcionalidad completa en** `counter.js` y `events.js`: Todo el código JS debe estar concentrado en el archivo `counter.js` y `events.js`, sin modificar otros archivos.
+3. **Organización del código**: El código debe estar organizado de manera que sea fácil de leer y entender.
+4. **Refactorización correcta**: Se evaluará si la función `decrease` impide correctamente los valores negativos.
+
 ## Paso a Paso
 
-### **Parte I: Crear la lógica del contador**
+### **Parte I: Crear el Proyecto**
+- Forkea el repositorio proporcionado y clónalo en tu máquina local.
+
+### **Parte II: Crear la lógica del contador**
 
 **Paso 1: Visualizar el contador en la página web**
 
@@ -72,21 +88,21 @@ El objetivo principal es que logres **interactuar con el DOM** y accionar **Even
    
    - Cada función debe actualizar el valor del contador en el DOM, de modo que el número se muestre en tiempo real en la pantalla.
 
-**Paso 3: Vincular los eventos de clic en `events.js`:**
+**Paso 3: Vincular los eventos de click en `events.js`:**
 
 1. **Abrir el archivo `events.js`:**
    - Este archivo también estará ubicado dentro de la carpeta src/js/.
 
 2. **Agregar eventos a los botones:**
-   - Usa `document.getElementById` para seleccionar los botones..
+   - Usa `document.getElementById` para seleccionar los botones.
    - Utiliza `addEventListener` para vincular el evento de clic a cada botón, y así ejecutar las funciones de aumentar, disminuir o reiniciar según corresponda.
 
-**Resumen:**
-- Todo el código para aumentar, disminuir y reiniciar el contador debe implementarse en `counter.js`.
-- La vinculación de eventos a los botones debe implementarse en `events.js`.
+**Paso 4: Guardar y Probar**
+   - Guarda todos los cambios y asegúrate de que el contador funcione correctamente.
+   - 
 ---
 
-### **Parte II: Refactorización para evitar valores negativos**
+### **Parte III: Refactorización para evitar valores negativos**
 
 **Paso 1: Refactorizar la función de disminución en `counter.js`**
 
@@ -120,4 +136,5 @@ El objetivo principal es que logres **interactuar con el DOM** y accionar **Even
 - **Formato de entrega**:
     - Se deberá entregar en el Classroom, con el enlace a github del ejercicio.
 
+- Este ejercicio te permitirá desarrollar una mejor comprensión de cómo manipular el DOM, manejar eventos y aplicar la lógica de programación para interactuar con los elementos de una página web.
 ---
