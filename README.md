@@ -27,7 +27,7 @@ En la **Parte II**, se refactorizará la función de "disminuir" para evitar que
 
 **¿Con qué lo hacemos?**
 
-Usaremos HTML, CSS y JavaScript, organizados en diferentes archivos. **El archivo `index.html` y el style.css ya estarán creados**, por lo que únicamente trabajarás con JavaScript para interactuar con el DOM y crear los eventos.
+Utilizaremos JavaScript y un editor de texto como Visual Studio Code.
 
 ---
 
