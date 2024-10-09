@@ -1,13 +1,18 @@
-function add(){
-    //Escribir tu código que aumenta
+function add(int) {
+    int.textContent = parseInt(int.textContent) + 1;
 }
 
-function reset(){
-    //Escribir tu código que hace un reset a 0
+function reset(int) {
+    int.textContent = 0;
 }
 
-function decrease(){
-    //Escribir tu código que resta
+function decrease(int) {
+    // int.textContent = parseInt(int.textContent) - 1;
+    if (parseInt(int.textContent) != 0) {
+        int.textContent = parseInt(int.textContent) - 1;
+    } else {
+        int.textContent = 0;
+    }
 };
 
 export {add, reset, decrease}
