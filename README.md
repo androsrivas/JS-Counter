@@ -13,6 +13,7 @@ Vamos a implementar un contador interactivo en JavaScript que permitirá aumenta
 3. Uno que aumentará el valor del contador.
 
 Deberás hacer el fork del siguiente link:
+https://github.com/P1-Fullstack-Once/js-counter
 
 **¿Dónde lo vamos a hacer?**
 El proyecto será forkeado desde GitHub.
