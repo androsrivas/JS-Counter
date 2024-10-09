@@ -7,7 +7,10 @@ function reset(int) {
 }
 
 function decrease(int) {
+    // Parte I
     // int.textContent = parseInt(int.textContent) - 1;
+
+    // Parte II
     if (parseInt(int.textContent) != 0) {
         int.textContent = parseInt(int.textContent) - 1;
     } else {
