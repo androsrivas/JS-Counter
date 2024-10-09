@@ -73,7 +73,7 @@ El objetivo principal es que logres **interactuar con el DOM** y accionar **Even
 
 - El archivo **index.html** y el **style.css** ya están creados y contiene tres botones: uno para aumentar, otro para disminuir, y otro para reiniciar el contador. También incluye un elemento para mostrar el valor actual del contador.
 - No es necesario modificar el HTML ni el CSS.
-- Visualiza la página web con LiveServer y obeserva el contador, de momento no tiene aún la lógica implementada ni está funcional (al hacer click en los botones no debe ocurrir nada).
+- Visualiza la página web con LiveServer y observa el contador, de momento no tiene aún la lógica implementada ni está funcional (al hacer click en los botones no debe ocurrir nada).
 
 **Paso 2: Implementar la lógica y el evento en `counter.js`**
 
@@ -84,7 +84,7 @@ El objetivo principal es que logres **interactuar con el DOM** y accionar **Even
    Implementa tres funciones:
    - Implementa la lógica para **aumentar** el valor del contador en la función **add()**.
    - Implementa la lógica para **reiniciar** el valor del contador en la función **reset()**.
-   - Implementa la lógica para **diminuir** el valor del contador en la función **decrease()**.
+   - Implementa la lógica para **disminuir** el valor del contador en la función **decrease()**.
    
    - Cada función debe actualizar el valor del contador en el DOM, de modo que el número se muestre en tiempo real en la pantalla.
 
